@@ -50,6 +50,6 @@ async def hello(uri):
 
 
 asyncio.get_event_loop().run_until_complete(
-    hello('ws://api.lbank.info/ws/V2/')   # Beyond the wall
+    hello('wss://api.lbkex.com/ws/V2/')  
 )
 
